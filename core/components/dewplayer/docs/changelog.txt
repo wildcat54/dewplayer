@@ -1,0 +1,8 @@
+version 1.0-beta2
+-----------------
+- corrected bugs in playlist flash player version & choice between mp3 & xml file (new parameter fileType & filePath)
+- added documentation page: http://kevinklein.fr/modx/dewplayer/
+
+version 1.0-beta1
+-----------------
+First release

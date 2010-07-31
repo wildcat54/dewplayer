@@ -17,10 +17,7 @@ $_lang['dewplayer.randomplay'] = 'Random Play';
 $_lang['dewplayer.randomplay_desc'] = 'Random Play if enabled.';
 $_lang['dewplayer.fading'] = 'Fading';
 $_lang['dewplayer.fading_desc'] = 'Fading between songs in seconds.';
-$_lang['dewplayer.mp3File'] = 'MP3 File';
-$_lang['dewplayer.mp3File_desc'] = 'The path to the song (absolute or relative path). If multiple files, please separate URLs with | (pipe).';
-$_lang['dewplayer.xmlFile'] = 'xmlFile';
-$_lang['dewplayer.xmlFile_desc'] = 'Path to the xml file (XSPF format).';
-
-
-
+$_lang['dewplayer.fileType'] = 'File Type';
+$_lang['dewplayer.fileType_desc'] = 'File Type. Can be \'mp3\' or \'xml\'.';
+$_lang['dewplayer.filePath'] = 'File Path';
+$_lang['dewplayer.filePath_desc'] = 'The path to the file (absolute or relative path). If multiple MP3 files, please separate URLs with | (pipe). For xml file, the XSPF format is required.';

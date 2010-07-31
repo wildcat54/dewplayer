@@ -17,10 +17,10 @@ $_lang['dewplayer.randomplay'] = 'Lecture aléatoire';
 $_lang['dewplayer.randomplay_desc'] = 'Active la lecture aléatoire si plusieurs fichiers.';
 $_lang['dewplayer.fading'] = 'Transition';
 $_lang['dewplayer.fading_desc'] = 'Transition (en secondes) entre un morceau et son suivant.';
-$_lang['dewplayer.mp3File'] = 'Fichier MP3';
-$_lang['dewplayer.mp3File_desc'] = 'URL du fichier MP3 (chemin absolu ou relatif). Dans le cas de la version multi, spécifiez les adresses des différents fichiers séparées par le caractère | (pipe).';
-$_lang['dewplayer.xmlFile'] = 'Fichier XML';
-$_lang['dewplayer.xmlFile_desc'] = 'Chemin vers le fichier XML (format XSPF).';
+$_lang['dewplayer.fileType'] = 'Type de fichier';
+$_lang['dewplayer.fileType_desc'] = 'Type de fichier. \'mp3\' ou \'xml\'.';
+$_lang['dewplayer.filePath'] = 'Chemin du fichier';
+$_lang['dewplayer.filePath_desc'] = 'Le chemin vers le fichier (chemin absolu ou relatif). Si plusieurs fichiers MP3,  les séparer avec le séparateur | (pipe). Pour un fichier xml, le format XSPF est requis.';
 
 
 

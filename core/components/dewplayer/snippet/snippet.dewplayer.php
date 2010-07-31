@@ -10,6 +10,7 @@ $showtime = $modx->getOption('showtime',$scriptProperties,0);
 $nopointer = $modx->getOption('nopointer',$scriptProperties,0);
 $randomplay = $modx->getOption('randomplay',$scriptProperties,0);
 $fading = $modx->getOption('fading',$scriptProperties,0);
+$fileType = $modx->getOption('fileType',$scriptProperties,'mp3');
 
 /* swf files path */
 $swfPath = $modx->getOption('assets_url').'components/dewplayer/swf/';
@@ -41,7 +42,7 @@ switch ($version)
 		break;
 	case 'playlist':
 		$swfFile = 'dewplayer-playlist';
-		$widht = '240';
+		$width = '240';
 		$height = '200';
 		break;
 	case 'bubble':
@@ -60,12 +61,16 @@ if ($backgrndColor == 'transparent') {
 	$colorStr = '&amp;bgcolor='.$backgrndColor;
 }
 
-/* xml file or mp3 file(s) */
-if (isset($xml)) {
-	$fileStr = 'xml='.$xmlFile;
-} else {
-	$fileStr = 'mp3='.$mp3File;
-}
+/* filetype */
+switch ($fileType)
+	{
+	case 'mp3':
+		$fileStr = 'mp3='.$filePath;
+		break;
+	case 'xml':
+		$fileStr = 'xml='.$filePath;
+		break;
+	}
 
 /* object id & name */
 $objid = 'dewplayer'.rand();

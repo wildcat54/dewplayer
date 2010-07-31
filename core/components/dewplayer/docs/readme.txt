@@ -10,5 +10,8 @@ Integration to modx based on dew's great flash mp3 player (http://www.alsacreati
 
 dewplayer flash mp3 player integration snippet for modx revolution.
 
+Documentation:
+http://kevinklein.fr/modx/dewplayer/
+
 Feel free to suggest ideas/improvements/bugs on GitHub:
 http://github.com/wildcat54/dewplayer/issues
