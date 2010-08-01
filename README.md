@@ -1,0 +1,1 @@
+/home/elisa/www/modx-revo/git/dewplayer/core/components/dewplayer/docs/readme.txt
