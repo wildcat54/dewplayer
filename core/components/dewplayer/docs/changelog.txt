@@ -1,3 +1,9 @@
+version 1.0-pl
+-----------------
+- added build script
+- snippet properties are now translated (en & fr)
+
+
 version 1.0-beta2
 -----------------
 - corrected bugs in playlist flash player version & choice between mp3 & xml file (new parameter fileType & filePath)

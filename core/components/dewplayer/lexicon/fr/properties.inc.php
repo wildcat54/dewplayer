@@ -1,26 +1,20 @@
 <?php
-$_lang['dewplayer.version'] = 'Version';
-$_lang['dewplayer.version_desc'] = 'La version du lecteur flash mp3 à utiliser.';
-$_lang['dewplayer.backgrndColor'] = 'Couleur de fond';
-$_lang['dewplayer.backgrndColor_desc'] = 'Couleur de fond. \'transparent\' ou code couleur HTML (comme FFFFFF) sans le #.';
-$_lang['dewplayer.volume'] = 'Volume';
-$_lang['dewplayer.volume_desc'] = 'Pour modifier le volume par défaut du son, valeur de 0 (silencieux) à 100 (volume maximal).';
-$_lang['dewplayer.autostart'] = 'Lecture automatique';
-$_lang['dewplayer.autostart_desc'] = 'La chanson démarre automatiquement si activé.';
-$_lang['dewplayer.loop'] = 'Lecture en boucle';
-$_lang['dewplayer.loop_desc'] = 'Active la lecture en boucle.';
-$_lang['dewplayer.showtime'] = 'Temps affiché';
-$_lang['dewplayer.showtime_desc'] = 'Montre le temps de la chanson (dans le format minutes:secondes).';
-$_lang['dewplayer.nopointer'] = 'Pas de curseur';
-$_lang['dewplayer.nopointer_desc'] = 'Le curseur ne sera pas montré si activé.';
-$_lang['dewplayer.randomplay'] = 'Lecture aléatoire';
-$_lang['dewplayer.randomplay_desc'] = 'Active la lecture aléatoire si plusieurs fichiers.';
-$_lang['dewplayer.fading'] = 'Transition';
-$_lang['dewplayer.fading_desc'] = 'Transition (en secondes) entre un morceau et son suivant.';
-$_lang['dewplayer.fileType'] = 'Type de fichier';
-$_lang['dewplayer.fileType_desc'] = 'Type de fichier. \'mp3\' ou \'xml\'.';
-$_lang['dewplayer.filePath'] = 'Chemin du fichier';
-$_lang['dewplayer.filePath_desc'] = 'Le chemin vers le fichier (chemin absolu ou relatif). Si plusieurs fichiers MP3,  les séparer avec le séparateur | (pipe). Pour un fichier xml, le format XSPF est requis.';
-
-
-
+$_lang['prop_version_desc'] = 'La version du lecteur flash mp3 à utiliser.';
+$_lang['prop_version_opt_classic'] = 'Classic';
+$_lang['prop_version_opt_mini'] = 'Mini';
+$_lang['prop_version_opt_multi'] = 'Multi';
+$_lang['prop_version_opt_multi_rect'] = 'Multi Rect';
+$_lang['prop_version_opt_playlist'] = 'Playlist';
+$_lang['prop_version_opt_bubble'] = 'Bubble';
+$_lang['prop_backgrndColor_desc'] = 'Couleur de fond. \'transparent\' ou code couleur HTML (comme FFFFFF) sans le #.';
+$_lang['prop_volume_desc'] = 'Pour modifier le volume par défaut du son, valeur de 0 (silencieux) à 100 (volume maximal).';
+$_lang['prop_autostart_desc'] = 'La chanson démarre automatiquement si activé.';
+$_lang['prop_loop_desc'] = 'Active la lecture en boucle.';
+$_lang['prop_showtime_desc'] = 'Montre le temps de la chanson (dans le format minutes:secondes).';
+$_lang['prop_nopointer_desc'] = 'Le curseur ne sera pas montré si activé.';
+$_lang['prop_randomplay_desc'] = 'Active la lecture aléatoire si plusieurs fichiers.';
+$_lang['prop_fading_desc'] = 'Transition (en secondes) entre un morceau et son suivant.';
+$_lang['prop_fileType_desc'] = 'Type de fichier. \'mp3\' ou \'xml\'.';
+$_lang['prop_fileType_opt_mp3'] = 'MP3';
+$_lang['prop_fileType_opt_xml'] = 'XML';
+$_lang['prop_filePath_desc'] = 'Le chemin vers le fichier (chemin absolu ou relatif). Si plusieurs fichiers MP3,  les séparer avec le séparateur | (pipe). Pour un fichier xml, le format XSPF est requis.';
